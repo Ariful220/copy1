@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+    html,body{
+        margin:0;
+
+        border:0;
+        line-height:1.5;
+        font-size: 16px;
+    }
+    body{
+        background-color: white;
+        font-family: arial;
+    }
+    header{
+        background-color:black;
+        color: white;
+        padding:20px 30px;
+    }
+    #logo{
+        display: inline-block;
+        color: white
+        text-decoration:none;
+        width: 49%;
+    }
+    #logo img{
+        width: 50px;
+        color: white;
+        text-decoration: none;
+        border-radius:3px;
+        margin-right: 8px;
+        margin-align:middle;
+        vertical-align: middle;
+    }
+    #logo span{
+        display: inline-block;
+    }
+    nav{
+        width: 50px;
+        display: inline-block;
+        text-align: right;
+
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 3px;
+        transition:0.3s case all;
+    }
+    nav ul li a:hover{
+        background-color: grey;
+
+    }
+    footer img{
+        display: inline-block;
+        border-radius: 5px;
+        width: 80px;
+        margin:0 auto 10px;
+    }
+    .hero{
+        min-height: 800px;
+        text-align: center;
+        background-image: url("img/sky.jpg");
+        background-size: cover;
+    }
+    .hero-content h1{
+        font-size:100px;
+        margin:0;
+    }
+    .hero-content p{
+        font-size: 50px;
+    }
+    .hero-content p{
+        font-size: 50px;
+    }
+    .hero-content a{
+        display: inline-block;
+        color: white;
+        border: 3px solid;
+        padding: 15px 30px;
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 28px;
+    }
+    .site-section{
+        padding-bottom: 50px;
+        padding: top 50px;
+    }
+
+
